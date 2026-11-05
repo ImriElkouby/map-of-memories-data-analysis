@@ -1,23 +1,20 @@
-# Security Incidents Analysis
+# Map of Memories: Analysis of Terror Attacks Against Israeli Civilians (2000–2023)
 
-## Overview
-This project focuses on the comprehensive analysis of security incidents data. It employs data science methodologies to process, clean, and interpret complex datasets, aiming to uncover patterns and trends that provide a deeper understanding of the conflict's dynamics.
+A team data-analysis project that explores **when, where and how** terror attacks against Israeli civilians occurred between 2000 and 2023, using victim-level data collected by B'Tselem.
 
-## Key Technical Skills Demonstrated
-* **Data Preprocessing & Cleaning:** Transforming raw, complex datasets into structured formats ready for analysis.
-* **Exploratory Data Analysis (EDA):** Identifying underlying patterns, anomalies, and distributions within the data.
-* **Statistical Modeling:** Utilizing Python's ecosystem (Pandas, NumPy) to perform rigorous quantitative analysis.
-* **Data-Driven Insights:** Deriving actionable conclusions from large-scale historical information.
+**Team:** Imri Elkouby, Yuval Kirshner, Noa Manor
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-## Project Workflow
-1. **Data Wrangling:** Extensive cleaning to ensure data integrity and consistency.
-2. **Analysis:** Applying statistical techniques to examine various dimensions of the incidents.
-3. **Visualization:** Creating visual representations to communicate complex findings clearly.
+## Key findings
 
-## Team Members
-* Imri Elkouby
-* Yuval Kirshner
-* Noa Manor
+- **Seasonality:** Attacks are spread fairly evenly across the year (21%–28% per season), but **spring and summer attacks were the deadliest**, with about 2.75 fatalities per attack compared with about 2.1–2.3 in autumn and winter.
+- **Geography:** Inside the Green Line, attacks are **concentrated in a few cities**: Jerusalem alone accounts for 40 attacks, followed by Tel Aviv-Yafo (15). In the West Bank, attacks are **spread across many locations**, and no single place has more than 6.
+- **Victims by weekday:** Inside the Green Line, the average age of victims **drops towards the weekend**, while on other days it stays stable regardless of region.
 
-## Data Source
-[Link to original Kaggle dataset](https://www.kaggle.com/datasets/nada144/israeli-palestinian-conflict)
+![Bar and line chart of attacks and fatalities by season, with a pie chart of each season's share of attacks. Spring has the most attacks (100) and fatalities (275).](seasons-chart.png)
+
+![Three bar charts: attacks by region (West Bank highest, then Israel, then Gaza Strip), top 5 cities in Israel (Jerusalem far ahead), and top 5 locations in the West Bank (5 to 6 attacks each).](regions-chart.png)
+
+## Data
+
+- **Source:** [Kaggle:
